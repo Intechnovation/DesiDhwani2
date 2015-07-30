@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="250dp"
+    android:layout_height="fill_parent"
+    android:background="#3b6c8e"
+    android:id="@+id/FlyOutMenu"
+    android:padding="4dp"
+    android:clickable="true"
+    android:scrollbars="vertical"
+    android:scrollbarStyle="insideInset"
+    android:overScrollMode="always"
+    android:isScrollContainer="true">
+    <TextView
+        android:text="JunctionE"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textColor="#ffc1c1c1"
+        android:padding="4dp" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:id="@+id/view1"
+        android:background="#ffc1c1c1" />
+    <TextView
+        android:id="@+id/Books"
+        android:text="Books"
+        android:textColor="#fff8f8f8"
+        android:background="#3b6c8e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+    <Button
+        android:text="All Books"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="35px"
+        android:layout_marginTop="10px"
+        android:id="@+id/AllBooks"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:textColor="#fff8f8f8"
+        android:background="#323c3f" />
+    <Button
+        android:text="Books 1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="35px"
+        android:layout_marginTop="10px"
+        android:id="@+id/Books1"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:textColor="#fff8f8f8"
+        android:background="#323c3f" />
+    <Button
+        android:text="Books 2"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="35px"
+        android:layout_marginTop="10px"
+        android:id="@+id/Books2"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:textColor="#fff8f8f8"
+        android:background="#323c3f"
+        android:layout_marginBottom="10px" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:id="@+id/view1"
+        android:background="#ffc1c1c1" />
+    <TextView
+        android:id="@+id/MobilePhones"
+        android:text="MobilePhone"
+        android:textColor="#fff8f8f8"
+        android:background="#3b6c8e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10px" />
+    <Button
+        android:text="Phone1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="35px"
+        android:layout_marginTop="10px"
+        android:id="@+id/Phone1"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:textColor="#fff8f8f8"
+        android:background="#323c3f" />
+    <Button
+        android:text="Phone 2"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="35px"
+        android:layout_marginTop="10px"
+        android:id="@+id/Phone2"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:textColor="#fff8f8f8"
+        android:background="#323c3f" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:id="@+id/view1"
+        android:background="#ffc1c1c1" />
+    <TextView
+        android:id="@+id/Tablets"
+        android:text="Tablets"
+        android:textColor="#fff8f8f8"
+        android:background="#3b6c8e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10px" />
+    <Button
+        android:text="All Tablets"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="40px"
+        android:layout_marginTop="10px"
+        android:id="@+id/AllTablet"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:textColor="#fff8f8f8"
+        android:background="#323c3f" />
+    <Button
+        android:text="Tablet 1"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="35px"
+        android:layout_marginTop="10px"
+        android:id="@+id/Tablet1"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:textColor="#fff8f8f8"
+        android:background="#323c3f" />
+    <Button
+        android:text="Tablet 2"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="35px"
+        android:layout_marginTop="10px"
+        android:id="@+id/Tablet2"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:textColor="#fff8f8f8"
+        android:background="#323c3f" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:id="@+id/view1"
+        android:background="#ffc1c1c1" />
+    <TextView
+        android:id="@+id/Laptops"
+        android:text="Laptops"
+        android:textColor="#fff8f8f8"
+        android:background="#3b6c8e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10px" />
+    <Button
+        android:text="All Laptops"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="35px"
+        android:layout_marginTop="10px"
+        android:id="@+id/ALaptops"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:textColor="#fff8f8f8"
+        android:background="#323c3f" />
+    <Button
+        android:text="Apple Laptops"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="35px"
+        android:layout_marginTop="10px"
+        android:id="@+id/AppleLaptops"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:textColor="#fff8f8f8"
+        android:background="#323c3f" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:id="@+id/view1"
+        android:background="#ffc1c1c1" />
+    <TextView
+        android:id="@+id/BagsBeltsWallets"
+        android:text="BagsBeltsWallets"
+        android:textColor="#fff8f8f8"
+        android:background="#3b6c8e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10px" />
+    <Button
+        android:text="BagsBeltsWallets"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="35px"
+        android:layout_marginTop="10px"
+        android:id="@+id/MBagsBeltsWallets"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:textColor="#fff8f8f8"
+        android:background="#323c3f" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:id="@+id/view1"
+        android:background="#ffc1c1c1" />
+    <TextView
+        android:id="@+id/Apparels"
+        android:text="Apparels"
+        android:textColor="#fff8f8f8"
+        android:background="#3b6c8e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10px" />
+    <Button
+        android:text="View All Apparels"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="35px"
+        android:layout_marginTop="10px"
+        android:id="@+id/VApparels"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:textColor="#fff8f8f8"
+        android:background="#323c3f" />
+    <Button
+        android:text="Women Section"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="35px"
+        android:layout_marginTop="10px"
+        android:id="@+id/WomenSection"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:textColor="#fff8f8f8"
+        android:background="#323c3f" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:id="@+id/view1"
+        android:background="#ffc1c1c1" />
+    <TextView
+        android:id="@+id/OtherItems"
+        android:text="OtherItems"
+        android:textColor="#fff8f8f8"
+        android:background="#3b6c8e"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10px" />
+    <Button
+        android:text="Other Items"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="35px"
+        android:layout_marginTop="10px"
+        android:id="@+id/OtherItems"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:textColor="#fff8f8f8"
+        android:background="#323c3f" />
+</LinearLayout>
